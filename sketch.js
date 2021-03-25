@@ -39,7 +39,7 @@ function draw() {
 }
 function keyPressed(){
     if(keyCode === 32){
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:600,y:-500})
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:600,y:-600})
 		
 		
 	}
